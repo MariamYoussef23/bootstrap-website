@@ -1,0 +1,13 @@
+/* To add a ghost space at the top after the fixed navbar*/
+body::before{
+    display: block;
+    content: '';
+    height: 55px;  
+}
+
+/* to make the email button half the width when the screen is bigger */
+@media(min-width:768px) {
+    .news-input {
+        width: 50%;
+    }
+}
